@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "homebridge-lifx-lan": "latest",
+    "homebridge-wink3": "latest",
+    "homebridge-platform-wemo": "latest"
+  }
+}

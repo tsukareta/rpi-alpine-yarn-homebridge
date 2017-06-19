@@ -1,0 +1,30 @@
+{
+  "bridge": {
+    "name": "Homebridge",
+    "username": "",
+    "port": 51826,
+    "pin": ""
+  },
+  "platforms": [
+    {
+      "platform": "BelkinWeMo",
+      "name": "WeMo Platform",
+      "timeout": "45",
+      "expected_accessories": "2",
+      "homekit_safe": "1"
+    },
+    {
+      "platform": "LifxLan",
+      "name": "LiFx"
+    },
+    {
+      "platform": "Wink",
+      "name": "Wink",
+      "client_id": "quirky_wink_android_app",
+      "client_secret": "e749124ad386a5a35c0ab554a4f2c045",
+      "direct_access": "true",
+      "username": "",
+      "password": ""
+    }
+  ]
+}
